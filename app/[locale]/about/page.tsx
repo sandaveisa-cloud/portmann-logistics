@@ -13,30 +13,40 @@ export default function AboutPage() {
     return (
         <div className="w-full">
             {/* Page Banner */}
-            <div className="relative w-full h-64 md:h-80 overflow-hidden shadow-md">
-                <div className="absolute inset-0 bg-[url('/about-banner.png')] bg-cover bg-center parallax"></div>
-                <div className="absolute inset-0 bg-primary/40"></div>
+            <div className="relative w-full h-80 md:h-[450px] overflow-hidden shadow-2xl">
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 1.5 }}
+                    className="absolute inset-0 bg-[url('/adazi-base.png')] bg-cover bg-center parallax"
+                ></motion.div>
+                <div className="absolute inset-0 bg-primary/50"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                    <h1 className="text-4xl md:text-5xl font-black text-white tracking-widest uppercase">{t('about')}</h1>
+                    <motion.h1
+                        initial={{ opacity: 0, y: -20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 0.3 }}
+                        className="text-4xl md:text-6xl font-black text-white tracking-widest uppercase"
+                    >
+                        {t('about')}
+                    </motion.h1>
                 </div>
             </div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
 
-                {/* Adazi Base */}
-                <section className="mb-20 md:mb-24 mt-8 md:mt-12">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
-                        <div className="order-2 lg:order-1">
-                            <h3 className="text-3xl md:text-4xl font-black text-primary mb-4 leading-tight">{tAbout('baseTitle')}</h3>
-                            <div className="w-20 h-1.5 bg-accent mb-6 rounded-full"></div>
-                            <p className="text-gray-600 text-lg md:text-xl leading-relaxed font-medium">{tAbout('baseDesc')}</p>
-                        </div>
-                        <div className="w-full h-64 md:h-[400px] rounded-3xl overflow-hidden shadow-2xl relative group order-1 lg:order-2 border-4 border-white">
-                            <div className="absolute inset-0 bg-[url('/adazi-base.png')] bg-cover bg-center group-hover:scale-105 transition-transform duration-1000"></div>
-                            <div className="absolute inset-0 bg-primary/5 group-hover:bg-transparent transition-colors duration-500"></div>
-                        </div>
-                    </div>
-                </section>
+                {/* Adazi Base Teksts (Fade In Efekts bez otrās bildes) */}
+                <motion.section
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: "-100px" }}
+                    transition={{ duration: 0.8 }}
+                    className="mb-20 md:mb-24 mt-4 text-center max-w-4xl mx-auto"
+                >
+                    <h3 className="text-3xl md:text-5xl font-black text-primary mb-6 leading-tight">{tAbout('baseTitle')}</h3>
+                    <div className="w-24 h-1.5 bg-accent mb-8 rounded-full mx-auto"></div>
+                    <p className="text-gray-600 text-xl leading-relaxed font-medium">{tAbout('baseDesc')}</p>
+                </motion.section>
 
                 {/* Vēsture un Flotes Skaitītāji */}
                 <section className="mb-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
