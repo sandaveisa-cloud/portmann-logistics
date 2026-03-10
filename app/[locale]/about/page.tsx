@@ -24,12 +24,16 @@ export default function AboutPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
 
                 {/* Adazi Base */}
-                <section className="mb-16">
-                    <div className="w-full h-64 md:h-[400px] rounded-2xl overflow-hidden shadow-xl relative group">
-                        <div className="absolute inset-0 bg-[url('/adazi-base.png')] bg-cover bg-center group-hover:scale-105 transition-transform duration-1000"></div>
-                        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/95 via-gray-900/30 to-transparent flex flex-col justify-end p-8 md:p-12">
-                            <h3 className="text-white text-3xl md:text-4xl font-black mb-3">{tAbout('baseTitle')}</h3>
-                            <p className="text-gray-300 max-w-2xl text-lg md:text-xl font-semibold">{tAbout('baseDesc')}</p>
+                <section className="mb-20 md:mb-24 mt-8 md:mt-12">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
+                        <div className="order-2 lg:order-1">
+                            <h3 className="text-3xl md:text-4xl font-black text-primary mb-4 leading-tight">{tAbout('baseTitle')}</h3>
+                            <div className="w-20 h-1.5 bg-accent mb-6 rounded-full"></div>
+                            <p className="text-gray-600 text-lg md:text-xl leading-relaxed font-medium">{tAbout('baseDesc')}</p>
+                        </div>
+                        <div className="w-full h-64 md:h-[400px] rounded-3xl overflow-hidden shadow-2xl relative group order-1 lg:order-2 border-4 border-white">
+                            <div className="absolute inset-0 bg-[url('/adazi-base.png')] bg-cover bg-center group-hover:scale-105 transition-transform duration-1000"></div>
+                            <div className="absolute inset-0 bg-primary/5 group-hover:bg-transparent transition-colors duration-500"></div>
                         </div>
                     </div>
                 </section>
