@@ -21,16 +21,8 @@ export default function NavBar() {
 
                     {/* Logo Section */}
                     <div className="flex items-center">
-                        <Link href="/" className="flex items-center gap-4">
-                            <Image src="/portmann-logo.png" alt="Portmann Logo" width={96} height={96} className="rounded-xl shadow-sm" priority />
-                            <div className="flex flex-col justify-center">
-                                <span className="font-extrabold text-3xl tracking-tight text-primary leading-none block">
-                                    PORTMANNS
-                                </span>
-                                <span className="text-xs font-bold text-gray-500 uppercase tracking-widest leading-tight mt-1">
-                                    Logistics & Co
-                                </span>
-                            </div>
+                        <Link href="/" className="flex items-center gap-2">
+                            <Image src="/portmann-logo.png" alt="Portmann Logo" width={220} height={60} className="w-auto h-12 sm:h-14 object-contain" priority />
                         </Link>
                     </div>
 

@@ -15,13 +15,8 @@ export default function Footer() {
 
                     {/* Brand & Intro */}
                     <div className="md:col-span-1">
-                        <Link href="/" className="flex items-center gap-3 mb-6">
-                            <Image src="/portmann-logo.png" alt="Portmann Logo" width={64} height={64} className="rounded-md bg-white p-1" />
-                            <div>
-                                <span className="font-extrabold text-2xl tracking-tight text-white leading-none block">
-                                    PORTMANNS
-                                </span>
-                            </div>
+                        <Link href="/" className="inline-block mb-6">
+                            <Image src="/portmann-logo.png" alt="Portmann Logo" width={200} height={54} className="w-auto h-12 object-contain" />
                         </Link>
                         <p className="text-base text-gray-300 mb-4 leading-relaxed">
                             Starptautiskie loģistikas un muitas noliktavu pakalpojumi no droša Latvijas partnera. Kopš 1998. gada.
