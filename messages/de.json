@@ -29,5 +29,25 @@
         "about": "Über uns",
         "careers": "Karriere",
         "contacts": "Kontakt"
+    },
+    "Services": {
+        "title": "Gefahrguttransport (ADR)",
+        "adr1Title": "1. Klassifizierung & Typen",
+        "adr1Desc": "Wir transportieren alle 9 Gefahrgutklassen, einschließlich entzündlicher Stoffe und Chemikalien.",
+        "adr2Title": "2. Erfahrung & Zertifizierung",
+        "adr2Desc": "Unsere Fahrer verfügen über internationale ADR-Zertifikate und langjährige unfallfreie Fahrpraxis.",
+        "adr3Title": "3. Spezialisierte Flotte",
+        "adr3Desc": "Maßgeschneiderte Tanks und regelmäßige technische Prüfungen zur Erfüllung der ADR-Anforderungen.",
+        "adr4Title": "4. Sicherheit & Versicherung",
+        "adr4Desc": "Neben CMR bieten wir spezielle Risikoabsicherungen an.",
+        "adr5Title": "5. Zoll & Dokumente",
+        "adr5Desc": "Abwicklung komplexer Routings und TN VED / HS-Code-Verarbeitung.",
+        "adr6Title": "6. Preis Anfragen",
+        "adr6Desc": "Berechnen Sie Ihre ADR-Transportkosten sofort.",
+        "adr6Btn": "Preis Anfragen",
+        "otherTitle": "Weitere Dienstleistungen",
+        "other1": "Straßenfracht in Europa (EURO-6, MEGA-Auflieger)",
+        "other2": "Seefrachtspedition",
+        "other3": "Lagerung und Zolllagerdienstleistungen in Adazi"
     }
 }

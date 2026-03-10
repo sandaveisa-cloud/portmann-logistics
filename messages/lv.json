@@ -29,5 +29,25 @@
     "about": "Par mums",
     "careers": "Karjera",
     "contacts": "Kontakti"
+  },
+  "Services": {
+    "title": "Bīstamo Kravu (ADR) Pārvadājumi",
+    "adr1Title": "1. Klasifikācija un Tipi",
+    "adr1Desc": "Pārvadājam visas 9 bīstamības klases, ieskaitot uzliesmojošas vielas un ķīmiju.",
+    "adr2Title": "2. Pieredze un Sertifikācija",
+    "adr2Desc": "Mūsu šoferiem ir starptautiski ADR sertifikāti un stāžs drošā pārvadāšanā.",
+    "adr3Title": "3. Specializētais Autoparks",
+    "adr3Desc": "Pielāgotas cisternas, regulāras tehniskās pārbaudes ADR prasībām.",
+    "adr4Title": "4. Drošība un Apdrošināšana",
+    "adr4Desc": "Papildus CMR apdrošināšanai piedāvājam spec-risku segumu.",
+    "adr5Title": "5. Muitas un Dokumenti",
+    "adr5Desc": "Sarežģītu maršrutu saskaņošana un TN VED kodu apstrāde.",
+    "adr6Title": "6. Cenas Pieprasījums",
+    "adr6Desc": "Aprēķiniet ADR kravas izmaksas tūlītēji.",
+    "adr6Btn": "Uzzināt cenu",
+    "otherTitle": "Citi Pakalpojumi",
+    "other1": "Sauszemes kravas Eiropā (EURO-6, MEGA treileri)",
+    "other2": "Jūras kravu ekspedīcija",
+    "other3": "Noliktavas un muitas noliktavas pakalpojumi Ādažos"
   }
 }

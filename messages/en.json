@@ -29,5 +29,25 @@
         "about": "About Us",
         "careers": "Careers",
         "contacts": "Contacts"
+    },
+    "Services": {
+        "title": "Dangerous Goods (ADR) Transport",
+        "adr1Title": "1. Classification and Types",
+        "adr1Desc": "We transport all 9 hazard classes, including flammables and chemicals.",
+        "adr2Title": "2. Experience & Certification",
+        "adr2Desc": "Our drivers hold international ADR certificates and vast safe-driving records.",
+        "adr3Title": "3. Specialized Fleet",
+        "adr3Desc": "Customized tanks and regular tech inspections to meet ADR requirements.",
+        "adr4Title": "4. Security & Insurance",
+        "adr4Desc": "In addition to CMR, we offer specialized risk coverage policies.",
+        "adr5Title": "5. Customs & Documents",
+        "adr5Desc": "Handling complex routing and TN VED / HS code processing.",
+        "adr6Title": "6. Request a Quote",
+        "adr6Desc": "Calculate your ADR transport costs instantly.",
+        "adr6Btn": "Get a Quote",
+        "otherTitle": "Other Services",
+        "other1": "Road Freight in Europe (EURO-6, MEGA trailers)",
+        "other2": "Sea Freight forwarding",
+        "other3": "Warehousing and customs warehouse services in Adazi"
     }
 }

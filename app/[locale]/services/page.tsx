@@ -1,7 +1,8 @@
 import { useTranslations } from 'next-intl';
 
 export default function ServicesPage() {
-    const t = useTranslations('Navigation'); // vēlāk izveidosim Services JSON
+    const t = useTranslations('Navigation');
+    const tServ = useTranslations('Services');
 
     return (
         <div className="w-full">
@@ -18,43 +19,43 @@ export default function ServicesPage() {
 
                 {/* 6 Bloku ADR struktūra */}
                 <section className="mb-16">
-                    <h2 className="text-3xl font-bold text-accent mb-6 border-b pb-4">Bīstamo Kravu (ADR) Pārvadājumi</h2>
+                    <h2 className="text-3xl font-bold text-accent mb-6 border-b pb-4">{tServ('title')}</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <div className="card">
-                            <h3 className="text-xl font-bold mb-3">1. Klasifikācija un Tipi</h3>
-                            <p>Pārvadājam visas 9 bīstamības klases, ieskaitot uzliesmojošas vielas un ķīmiju.</p>
+                            <h3 className="text-xl font-bold mb-3">{tServ('adr1Title')}</h3>
+                            <p>{tServ('adr1Desc')}</p>
                         </div>
                         <div className="card">
-                            <h3 className="text-xl font-bold mb-3">2. Pieredze un Sertifikācija</h3>
-                            <p>Mūsu šoferiem ir starptautiski ADR sertifikāti un stāžs drošā pārvadāšanā.</p>
+                            <h3 className="text-xl font-bold mb-3">{tServ('adr2Title')}</h3>
+                            <p>{tServ('adr2Desc')}</p>
                         </div>
                         <div className="card">
-                            <h3 className="text-xl font-bold mb-3">3. Specializētais Autoparks</h3>
-                            <p>Pielāgotas cisternas, regulāras tehniskās pārbaudes ADR prasībām.</p>
+                            <h3 className="text-xl font-bold mb-3">{tServ('adr3Title')}</h3>
+                            <p>{tServ('adr3Desc')}</p>
                         </div>
                         <div className="card">
-                            <h3 className="text-xl font-bold mb-3">4. Drošība un Apdrošināšana</h3>
-                            <p>Papildus CMR apdrošināšanai piedāvājam spec-risku segumu.</p>
+                            <h3 className="text-xl font-bold mb-3">{tServ('adr4Title')}</h3>
+                            <p>{tServ('adr4Desc')}</p>
                         </div>
                         <div className="card">
-                            <h3 className="text-xl font-bold mb-3">5. Muitas un Dokumenti</h3>
-                            <p>Sarežģītu maršrutu saskaņošana un TN VED kodu apstrāde.</p>
+                            <h3 className="text-xl font-bold mb-3">{tServ('adr5Title')}</h3>
+                            <p>{tServ('adr5Desc')}</p>
                         </div>
                         <div className="card bg-blue-50 border-primary">
-                            <h3 className="text-xl font-bold mb-3 text-primary">6. Cenas Pieprasījums</h3>
-                            <p className="mb-4">Aprēķiniet ADR kravas izmaksas tūlītēji.</p>
-                            <button className="btn-accent w-full text-center">Uzzināt cenu</button>
+                            <h3 className="text-xl font-bold mb-3 text-primary">{tServ('adr6Title')}</h3>
+                            <p className="mb-4">{tServ('adr6Desc')}</p>
+                            <button className="btn-accent w-full text-center">{tServ('adr6Btn')}</button>
                         </div>
                     </div>
                 </section>
 
                 {/* Citu pakalpojumu saraksts */}
                 <section>
-                    <h2 className="text-3xl font-bold text-primary mb-6">Citi Pakalpojumi</h2>
+                    <h2 className="text-3xl font-bold text-primary mb-6">{tServ('otherTitle')}</h2>
                     <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700">
-                        <li>Sauszemes kravas Eiropā (EURO-6, MEGA treileri)</li>
-                        <li>Jūras kravu ekspedīcija</li>
-                        <li>Noliktavas un muitas noliktavas pakalpojumi Ādažos</li>
+                        <li>{tServ('other1')}</li>
+                        <li>{tServ('other2')}</li>
+                        <li>{tServ('other3')}</li>
                     </ul>
                 </section>
             </div>
