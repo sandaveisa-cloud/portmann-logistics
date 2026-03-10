@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 
 export default function ServicesPage() {
     const t = useTranslations('Navigation');
@@ -44,7 +45,7 @@ export default function ServicesPage() {
                         <div className="card bg-blue-50 border-primary">
                             <h3 className="text-xl font-bold mb-3 text-primary">{tServ('adr6Title')}</h3>
                             <p className="mb-4">{tServ('adr6Desc')}</p>
-                            <button className="btn-accent w-full text-center">{tServ('adr6Btn')}</button>
+                            <Link href="/quote" className="btn-accent w-full text-center block px-4 py-2 rounded-lg font-bold">{tServ('adr6Btn')}</Link>
                         </div>
                     </div>
                 </section>
