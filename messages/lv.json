@@ -158,5 +158,9 @@
     "errPhone": "Norādiet telefonu",
     "errEmail": "Nepareizs e-pasta formāts",
     "successAlert": "Cenas pieprasījums nosūtīts!"
+  },
+  "Metadata": {
+    "title": "Portmanns un Ko - Loģistika",
+    "description": "Mūsdienīgi transporta risinājumi un augstāko standartu loģistika kopš 1998. gada."
   }
 }

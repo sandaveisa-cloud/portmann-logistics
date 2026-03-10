@@ -22,7 +22,7 @@ export default function NavBar() {
                     {/* Logo Section */}
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center gap-2">
-                            <Image src="/portmann-logo.png" alt="Portmann Logo" width={220} height={60} className="w-auto h-12 sm:h-14 object-contain" priority />
+                            <span className="text-xl sm:text-2xl font-extrabold text-[#002f6c] tracking-tight uppercase">PORTMANNS UN KO</span>
                         </Link>
                     </div>
 

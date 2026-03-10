@@ -19,10 +19,21 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-export const metadata: Metadata = {
-  title: 'Portmanns un Ko - Loģistika',
-  description: 'Mūsdienīgi transporta risinājumi un augstāko standartu loģistika kopš 1998. gada.',
-};
+import { getTranslations } from 'next-intl/server';
+
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Metadata' });
+
+  return {
+    title: t('title'),
+    description: t('description'),
+  };
+}
 
 export default async function RootLayout({
   children,

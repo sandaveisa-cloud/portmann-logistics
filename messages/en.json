@@ -158,5 +158,9 @@
         "errPhone": "Please provide a phone number",
         "errEmail": "Invalid email format",
         "successAlert": "Quote request sent successfully!"
+    },
+    "Metadata": {
+        "title": "Portmanns & Co - Logistics",
+        "description": "Modern transport solutions and highest standard logistics since 1998."
     }
 }

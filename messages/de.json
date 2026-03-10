@@ -158,5 +158,9 @@
         "errPhone": "Bitte geben Sie eine Telefonnummer an",
         "errEmail": "Ungültiges E-Mail-Format",
         "successAlert": "Preisanfrage erfolgreich gesendet!"
+    },
+    "Metadata": {
+        "title": "Portmanns & Co - Logistik",
+        "description": "Moderne Transportlösungen und höchste Logistikstandards seit 1998."
     }
 }
