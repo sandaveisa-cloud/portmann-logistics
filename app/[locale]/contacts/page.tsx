@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 
 export default function ContactsPage() {
     const t = useTranslations('Navigation');
+    const tContact = useTranslations('Contacts');
 
     return (
         <div className="w-full">
@@ -21,29 +22,29 @@ export default function ContactsPage() {
                     {/* Adreses un rekvizīti */}
                     <div>
                         <div className="bg-white p-8 rounded-xl shadow-md border-l-4 border-accent mb-8">
-                            <h3 className="text-2xl font-bold mb-4 text-primary">SIA "PORTMANNS UN KO"</h3>
+                            <h3 className="text-2xl font-bold mb-4 text-primary">{tContact('companyName')}</h3>
                             <div className="space-y-4 text-lg text-gray-700">
-                                <p><strong>Biroja Adrese:</strong><br />Muižas iela 11, Ādaži, Ādažu nov., LV-2164</p>
-                                <p><strong>Noliktava:</strong><br />Muižas iela 11a, Ādaži</p>
-                                <p><strong>Reģistrācijas Nr:</strong> 40003399086</p>
+                                <p><strong>{tContact('officeTitle')}</strong><br />{tContact('officeAddress')}</p>
+                                <p><strong>{tContact('warehouseTitle')}</strong><br />{tContact('warehouseAddress')}</p>
+                                <p><strong>{tContact('regNrTitle')}</strong> {tContact('regNr')}</p>
                             </div>
                         </div>
 
                         {/* Personificēti kontakti kā norādīts analīze */}
                         <div className="bg-white p-8 rounded-xl shadow-md">
-                            <h3 className="text-2xl font-bold mb-4 text-primary">Operatīvie Kontakti</h3>
-                            <p className="text-sm text-gray-500 mb-6">Sazinieties ar savu tiešo menedžeri ātrākai apkalpošanai.</p>
+                            <h3 className="text-2xl font-bold mb-4 text-primary">{tContact('contactsTitle')}</h3>
+                            <p className="text-sm text-gray-500 mb-6">{tContact('contactsDesc')}</p>
 
                             <div className="space-y-6">
                                 <div className="border-b pb-4">
-                                    <p className="font-bold text-lg">Sauszemes Kravu Nodaļa (Auto)</p>
+                                    <p className="font-bold text-lg">{tContact('roadFreight')}</p>
                                     <a href="tel:+37129123456" className="text-accent hover:underline text-lg font-semibold block">+371 29 123 456</a>
                                     <a href="mailto:auto@portmann.lv" className="text-gray-600 hover:text-primary">auto@portmann.lv</a>
                                     {/* WhatsApp badge Placeholder */}
-                                    <span className="inline-block mt-2 bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full font-bold">WhatsApp Pieejams</span>
+                                    <span className="inline-block mt-2 bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full font-bold">{tContact('whatsappAvailable')}</span>
                                 </div>
                                 <div>
-                                    <p className="font-bold text-lg">Muitas un Noliktavas Pakalpojumi</p>
+                                    <p className="font-bold text-lg">{tContact('customsAndWarehouse')}</p>
                                     <a href="tel:+37129123457" className="text-accent hover:underline text-lg font-semibold block">+371 29 123 457</a>
                                     <a href="mailto:customs@portmann.lv" className="text-gray-600 hover:text-primary">customs@portmann.lv</a>
                                 </div>
@@ -53,7 +54,7 @@ export default function ContactsPage() {
 
                     {/* Map Placeholder */}
                     <div className="bg-gray-200 rounded-xl min-h-[400px] flex items-center justify-center text-gray-500">
-                        [Google Maps Integrācija Teiksies Šeit]
+                        {tContact('mapPlaceholder')}
                     </div>
                 </div>
             </div>

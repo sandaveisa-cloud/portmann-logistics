@@ -71,5 +71,20 @@
         "isoTitle": "ISO 9001:2015",
         "isoDesc": "Zertifikat für Qualitätsmanagementsysteme in globalen Logistikprozessen.",
         "isoBtn": "ISO-Zertifikate"
+    },
+    "Contacts": {
+        "companyName": "SIA \"PORTMANNS UN KO\"",
+        "officeTitle": "Büroadresse:",
+        "officeAddress": "Muizas Straße 11, Adazi, Bezirk Adazi, LV-2164",
+        "warehouseTitle": "Lager:",
+        "warehouseAddress": "Muizas Straße 11a, Adazi",
+        "regNrTitle": "Registrierungsnummer:",
+        "regNr": "40003399086",
+        "contactsTitle": "Operative Kontakte",
+        "contactsDesc": "Kontaktieren Sie Ihren direkten Manager für schnelleren Service.",
+        "roadFreight": "Abteilung Straßenfracht (Auto)",
+        "whatsappAvailable": "WhatsApp Verfügbar",
+        "customsAndWarehouse": "Zoll- und Lagerdienstleistungen",
+        "mapPlaceholder": "[Google Maps Integration Hier]"
     }
 }

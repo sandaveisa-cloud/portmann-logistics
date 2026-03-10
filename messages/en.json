@@ -71,5 +71,20 @@
         "isoTitle": "ISO 9001:2015",
         "isoDesc": "Quality management system certificate for global logistics processes.",
         "isoBtn": "ISO Certificate"
+    },
+    "Contacts": {
+        "companyName": "\"PORTMANNS UN KO\" Ltd.",
+        "officeTitle": "Office Address:",
+        "officeAddress": "Muizas street 11, Adazi, Adazi region, LV-2164",
+        "warehouseTitle": "Warehouse:",
+        "warehouseAddress": "Muizas street 11a, Adazi",
+        "regNrTitle": "Registration No:",
+        "regNr": "40003399086",
+        "contactsTitle": "Operational Contacts",
+        "contactsDesc": "Contact your direct manager for faster service.",
+        "roadFreight": "Road Freight Department (Auto)",
+        "whatsappAvailable": "WhatsApp Available",
+        "customsAndWarehouse": "Customs and Warehouse Services",
+        "mapPlaceholder": "[Google Maps Integration Here]"
     }
 }

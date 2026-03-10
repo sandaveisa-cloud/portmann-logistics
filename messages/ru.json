@@ -71,5 +71,20 @@
         "isoTitle": "ISO 9001:2015",
         "isoDesc": "Сертификат системы менеджмента качества для глобальных логистических процессов.",
         "isoBtn": "Сертификат ISO"
+    },
+    "Contacts": {
+        "companyName": "ООО «PORTMANNS UN KO»",
+        "officeTitle": "Адрес Офиса:",
+        "officeAddress": "Ул. Муйжас 11, Адажи, Адажский край, LV-2164",
+        "warehouseTitle": "Склад:",
+        "warehouseAddress": "Ул. Муйжас 11а, Адажи",
+        "regNrTitle": "Регистрационный номер:",
+        "regNr": "40003399086",
+        "contactsTitle": "Оперативные Контакты",
+        "contactsDesc": "Свяжитесь со своим прямым менеджером для более быстрого обслуживания.",
+        "roadFreight": "Отдел Наземных Перевозок (Авто)",
+        "whatsappAvailable": "Доступен WhatsApp",
+        "customsAndWarehouse": "Услуги Таможни и Склада",
+        "mapPlaceholder": "[Интеграция Google Maps Здесь]"
     }
 }

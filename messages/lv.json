@@ -71,5 +71,20 @@
     "isoTitle": "ISO 9001:2015",
     "isoDesc": "Kvalitātes vadības sistēmas sertifikāts globāliem loģistikas procesiem.",
     "isoBtn": "ISO Sertifikāts"
+  },
+  "Contacts": {
+    "companyName": "SIA \"PORTMANNS UN KO\"",
+    "officeTitle": "Biroja Adrese:",
+    "officeAddress": "Muižas iela 11, Ādaži, Ādažu nov., LV-2164",
+    "warehouseTitle": "Noliktava:",
+    "warehouseAddress": "Muižas iela 11a, Ādaži",
+    "regNrTitle": "Reģistrācijas Nr:",
+    "regNr": "40003399086",
+    "contactsTitle": "Operatīvie Kontakti",
+    "contactsDesc": "Sazinieties ar savu tiešo menedžeri ātrākai apkalpošanai.",
+    "roadFreight": "Sauszemes Kravu Nodaļa (Auto)",
+    "whatsappAvailable": "WhatsApp Pieejams",
+    "customsAndWarehouse": "Muitas un Noliktavas Pakalpojumi",
+    "mapPlaceholder": "[Google Maps Integrācija Teiksies Šeit]"
   }
 }
