@@ -33,11 +33,11 @@ export default function ServicesPage() {
                             <h3 className="text-xl font-bold mb-3">{tServ('adr3Title')}</h3>
                             <p>{tServ('adr3Desc')}</p>
                         </div>
-                        <div className="card">
+                        <div className="card" id="insurance">
                             <h3 className="text-xl font-bold mb-3">{tServ('adr4Title')}</h3>
                             <p>{tServ('adr4Desc')}</p>
                         </div>
-                        <div className="card">
+                        <div className="card" id="customs">
                             <h3 className="text-xl font-bold mb-3">{tServ('adr5Title')}</h3>
                             <p>{tServ('adr5Desc')}</p>
                         </div>
@@ -50,7 +50,7 @@ export default function ServicesPage() {
                 </section>
 
                 {/* Citu pakalpojumu saraksts */}
-                <section>
+                <section id="incoterms">
                     <h2 className="text-3xl font-bold text-primary mb-6">{tServ('otherTitle')}</h2>
                     <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700">
                         <li>{tServ('other1')}</li>

@@ -38,9 +38,9 @@ export default function Footer() {
                     <div>
                         <h4 className="text-white font-bold mb-4">Noderīga Informācija</h4>
                         <ul className="space-y-2 text-sm">
-                            <li><Link href="/services" className="hover:text-accent transition-colors" title="Starptautiskie tirdzniecības noteikumi">Incoterms atsauces</Link></li>
-                            <li><Link href="/services" className="hover:text-accent transition-colors" title="Muitas klasifikators">Muitas kodi (TN VED)</Link></li>
-                            <li><Link href="/about" className="hover:text-accent transition-colors" title="Bīstamās kravas drošība">Kravu apdrošināšana (CMR)</Link></li>
+                            <li><Link href="/services#incoterms" className="hover:text-accent transition-colors" title="Starptautiskie tirdzniecības noteikumi">Incoterms atsauces</Link></li>
+                            <li><Link href="/services#customs" className="hover:text-accent transition-colors" title="Muitas klasifikators">Muitas kodi (TN VED)</Link></li>
+                            <li><Link href="/about#insurance-cert" className="hover:text-accent transition-colors" title="Bīstamās kravas drošība">Kravu apdrošināšana (CMR)</Link></li>
                         </ul>
                     </div>
 

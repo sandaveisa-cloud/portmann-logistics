@@ -71,7 +71,7 @@ export default function AboutPage() {
                 </section>
 
                 {/* Sertifikātu Download Center */}
-                <section className="bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-16 border-y border-gray-200">
+                <section id="insurance-cert" className="bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-16 border-y border-gray-200">
                     <div className="max-w-7xl mx-auto">
                         <div className="text-center mb-10">
                             <h2 className="text-3xl font-bold text-primary mb-4">{tAbout('certsTitle')}</h2>
