@@ -49,5 +49,27 @@
         "other1": "Road Freight in Europe (EURO-6, MEGA trailers)",
         "other2": "Sea Freight forwarding",
         "other3": "Warehousing and customs warehouse services in Adazi"
+    },
+    "About": {
+        "baseTitle": "Our Logistics Base in Adazi",
+        "baseDesc": "Muizas street 11 and 11a. Strategically advantageous perimeter with a closed warehouse and guarded parking for the DAF truck fleet.",
+        "expTitle": "International Experience Since 1998",
+        "expP1": "\"PORTMANNS UN KO\" Ltd. is one of the most experienced international freight forwarding companies in Latvia.",
+        "expP2": "We have developed a stable cooperation network throughout Europe, specializing in dangerous (ADR) goods, oversized cargo, and providing full customs warehouse support on the East-West route.",
+        "stats1": "Years of Experience",
+        "stats2": "Trucks (EURO-6)",
+        "stats3": "GPS Coverage",
+        "stats4": "Insurance Limit",
+        "certsTitle": "Guarantees of Reliability and Documentation",
+        "certsSubtitle": "We work in accordance with the highest industry standards and Cefic (EFTCO) guidelines for chemical transport.",
+        "cmrTitle": "CMR Insurance",
+        "cmrDesc": "Standard CMR policy for every shipment and additional cargo coverage for special values.",
+        "cmrBtn": "Download PDF",
+        "sqasTitle": "SQAS Certificate",
+        "sqasDesc": "Safety and Quality Assessment for Sustainability – guaranteed safety in chemical circulation.",
+        "sqasBtn": "View SQAS (PDF)",
+        "isoTitle": "ISO 9001:2015",
+        "isoDesc": "Quality management system certificate for global logistics processes.",
+        "isoBtn": "ISO Certificate"
     }
 }

@@ -49,5 +49,27 @@
         "other1": "Straßenfracht in Europa (EURO-6, MEGA-Auflieger)",
         "other2": "Seefrachtspedition",
         "other3": "Lagerung und Zolllagerdienstleistungen in Adazi"
+    },
+    "About": {
+        "baseTitle": "Unsere Logistikbasis in Adazi",
+        "baseDesc": "Muizas Straße 11 und 11a. Strategisch vorteilhaftes Gebiet mit geschlossenem Lager und bewachtem Parkplatz für die DAF-Lkw-Flotte.",
+        "expTitle": "Internationale Erfahrung seit 1998",
+        "expP1": "Die SIA \"PORTMANNS UN KO\" ist eines der erfahrensten internationalen Speditionsunternehmen in Lettland.",
+        "expP2": "Wir haben ein stabiles Kooperationsnetzwerk in ganz Europa aufgebaut, sind auf Gefahrgut (ADR) sowie Übergrößenfracht spezialisiert und bieten volle Zolllagerunterstützung auf der Ost-West-Route an.",
+        "stats1": "Jahre Erfahrung",
+        "stats2": "Sattelzugmaschinen (EURO-6)",
+        "stats3": "GPS-Abdeckung",
+        "stats4": "Versicherungslimit",
+        "certsTitle": "Garantien für Zuverlässigkeit und Dokumentation",
+        "certsSubtitle": "Wir arbeiten nach den höchsten Industriestandards und den Cefic (EFTCO)-Richtlinien für den Transport chemischer Güter.",
+        "cmrTitle": "CMR-Versicherung",
+        "cmrDesc": "Standard-CMR-Police für jede Sendung und zusätzliche Frachtabdeckung für besondere Werte.",
+        "cmrBtn": "PDF Herunterladen",
+        "sqasTitle": "SQAS-Zertifikat",
+        "sqasDesc": "Safety and Quality Assessment for Sustainability – garantierte Sicherheit im Umgang mit Chemikalien.",
+        "sqasBtn": "SQAS Ansehen (PDF)",
+        "isoTitle": "ISO 9001:2015",
+        "isoDesc": "Zertifikat für Qualitätsmanagementsysteme in globalen Logistikprozessen.",
+        "isoBtn": "ISO-Zertifikate"
     }
 }

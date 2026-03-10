@@ -49,5 +49,27 @@
     "other1": "Sauszemes kravas Eiropā (EURO-6, MEGA treileri)",
     "other2": "Jūras kravu ekspedīcija",
     "other3": "Noliktavas un muitas noliktavas pakalpojumi Ādažos"
+  },
+  "About": {
+    "baseTitle": "Mūsu Loģistikas Bāze Ādažos",
+    "baseDesc": "Muižas iela 11 un 11a. Stratēģiski izdevīgs perimetrs ar slēgtu noliktavu un apsargātu stāvvietu DAF autovilkēju flotei.",
+    "expTitle": "Starptautiska Pieredze Kopš 1998. Gada",
+    "expP1": "SIA \"PORTMANNS UN KO\" ir viens no pieredzējušākajiem starptautiskajiem kravu ekspedīcijas uzņēmumiem Latvijā.",
+    "expP2": "Mēs esam izstrādājuši stabilu sadarbības tīklu visā Eiropā, specializējoties uz bīstamajām (ADR) kravām, lielgabarīta pārvadājumiem un piedāvājot pilnu muitas noliktavu atbalstu posmā Austrumi-Rietumi.",
+    "stats1": "Gadu Pieredze",
+    "stats2": "Autovilkēji (EURO-6)",
+    "stats3": "GPS Pārklājums",
+    "stats4": "Apdrošināšanas Limits",
+    "certsTitle": "Uzticamības Garantijas un Dokumentācija",
+    "certsSubtitle": "Mēs strādājam atbilstoši augstākajiem nozares standartiem un Cefic (EFTCO) norādījumiem ķīmisko kravu transportā.",
+    "cmrTitle": "CMR Apdrošināšana",
+    "cmrDesc": "Standarta CMR polise katram pārvadājumam un papildu kravas segums speciālām vērtībām.",
+    "cmrBtn": "Lejupielādēt PDF",
+    "sqasTitle": "SQAS Sertifikāts",
+    "sqasDesc": "Safety and Quality Assessment for Sustainability – garantēta drošība ķīmisko vielu apritē.",
+    "sqasBtn": "Apskatīt SQAS (PDF)",
+    "isoTitle": "ISO 9001:2015",
+    "isoDesc": "Kvalitātes vadības sistēmas sertifikāts globāliem loģistikas procesiem.",
+    "isoBtn": "ISO Sertifikāts"
   }
 }
