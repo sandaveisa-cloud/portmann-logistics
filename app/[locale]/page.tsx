@@ -15,7 +15,7 @@ export default function Home() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10 text-center lg:text-left w-full">
           <div className="inline-block bg-accent/20 border border-accent/30 px-5 py-2 rounded-full text-accent font-black tracking-widest uppercase text-xs sm:text-sm mb-8 shadow-sm backdrop-blur-sm">
-            Tavs Uzticamais Loģistikas Partneris
+            {tIndex('trustDesc')}
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight mb-8 text-white leading-tight">
@@ -30,7 +30,7 @@ export default function Home() {
               <ArrowRight className="group-hover:translate-x-2 transition-transform" />
             </Link>
             <Link href="/services" className="px-10 py-4 text-lg sm:text-xl font-extrabold bg-white/10 text-white backdrop-blur-md border tracking-wide border-white/20 rounded-xl hover:bg-white/20 hover:scale-[1.03] transform transition-all flex justify-center items-center">
-              Mūsu Pakalpojumi
+              {tIndex('ourServices')}
             </Link>
           </div>
         </div>
@@ -43,8 +43,8 @@ export default function Home() {
             <Globe size={32} />
           </div>
           <div>
-            <h3 className="font-extrabold text-lg text-gray-900">Kopš 1998. Gada</h3>
-            <p className="text-sm text-gray-500 font-medium">Pierādīta Stabilitāte</p>
+            <h3 className="font-extrabold text-lg text-gray-900">{tIndex('trust1Title')}</h3>
+            <p className="text-sm text-gray-500 font-medium">{tIndex('trust1Desc')}</p>
           </div>
         </div>
         <div className="hidden md:block w-px h-16 bg-gray-100"></div>
@@ -53,8 +53,8 @@ export default function Home() {
             <ShieldCheck size={32} />
           </div>
           <div>
-            <h3 className="font-extrabold text-lg text-gray-900">600,000 EUR</h3>
-            <p className="text-sm text-gray-500 font-medium">Kravu Apdrošināšana</p>
+            <h3 className="font-extrabold text-lg text-gray-900">{tIndex('trust2Title')}</h3>
+            <p className="text-sm text-gray-500 font-medium">{tIndex('trust2Desc')}</p>
           </div>
         </div>
         <div className="hidden md:block w-px h-16 bg-gray-100"></div>
@@ -63,8 +63,8 @@ export default function Home() {
             <Truck size={32} />
           </div>
           <div>
-            <h3 className="font-extrabold text-lg text-gray-900">ADR Kravas</h3>
-            <p className="text-sm text-gray-500 font-medium">Bīstamo Kravu Eksperti</p>
+            <h3 className="font-extrabold text-lg text-gray-900">{tIndex('trust3Title')}</h3>
+            <p className="text-sm text-gray-500 font-medium">{tIndex('trust3Desc')}</p>
           </div>
         </div>
       </section>
@@ -73,8 +73,8 @@ export default function Home() {
       <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-primary mb-4">Galvenie Loģistikas Virzieni</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">Nodrošinām pilnu loģistikas ķēdi no paņemšanas punkta līdz pat muitas noformējumam un drošai piegādei adresē.</p>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-primary mb-4">{tIndex('servicesTitle')}</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">{tIndex('servicesSubtitle')}</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -88,10 +88,10 @@ export default function Home() {
                 <div className="w-16 h-16 bg-white text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors shadow-lg border-4 border-gray-50 absolute -top-12 left-8">
                   <Truck size={28} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3 mt-4">Sauszemes Kravas</h3>
-                <p className="text-gray-600 mb-6 line-clamp-3">Pilno (FTL) un salikto (LTL) kravu pārvadājumi visā Eiropā ar moderniem EURO-6 vilcējiem. Specilizējamies ADR un temperatūras režīma kravās.</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3 mt-4">{tIndex('service1Title')}</h3>
+                <p className="text-gray-600 mb-6 line-clamp-3">{tIndex('service1Desc')}</p>
                 <Link href="/services" className="text-primary font-bold flex items-center gap-2 group-hover:text-accent transition-colors mt-auto">
-                  Uzzināt Vairāk <ArrowRight size={18} />
+                  {tIndex('service1Btn')} <ArrowRight size={18} />
                 </Link>
               </div>
             </div>
@@ -106,10 +106,10 @@ export default function Home() {
                 <div className="w-16 h-16 bg-white text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors shadow-lg border-4 border-gray-50 absolute -top-12 left-8">
                   <Warehouse size={28} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3 mt-4">Muitas Pakalpojumi</h3>
-                <p className="text-gray-600 mb-6 line-clamp-3">Pilna muitas brokeru apkalpošana (EX, IM, T1). Eksporta/importa deklarāciju sagatavošana un muitas kodi (TN VED).</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3 mt-4">{tIndex('service2Title')}</h3>
+                <p className="text-gray-600 mb-6 line-clamp-3">{tIndex('service2Desc')}</p>
                 <Link href="/services" className="text-primary font-bold flex items-center gap-2 group-hover:text-accent transition-colors mt-auto">
-                  Uzzināt Vairāk <ArrowRight size={18} />
+                  {tIndex('service2Btn')} <ArrowRight size={18} />
                 </Link>
               </div>
             </div>
@@ -124,10 +124,10 @@ export default function Home() {
                 <div className="w-16 h-16 bg-white text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors shadow-lg border-4 border-gray-50 absolute -top-12 left-8">
                   <Anchor size={28} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3 mt-4">Jūras un Avio</h3>
-                <p className="text-gray-600 mb-6 line-clamp-3">Multimodālie pārvadājumi (FCL/LCL) starpkontinentāliem sūtījumiem un apvienotā loģistika ātriem risinājumiem.</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3 mt-4">{tIndex('service3Title')}</h3>
+                <p className="text-gray-600 mb-6 line-clamp-3">{tIndex('service3Desc')}</p>
                 <Link href="/services" className="text-primary font-bold flex items-center gap-2 group-hover:text-accent transition-colors mt-auto">
-                  Uzzināt Vairāk <ArrowRight size={18} />
+                  {tIndex('service3Btn')} <ArrowRight size={18} />
                 </Link>
               </div>
             </div>

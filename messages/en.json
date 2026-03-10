@@ -1,8 +1,27 @@
 {
     "Index": {
+        "trustDesc": "Your Trusted Logistics Partner",
         "title": "International Logistics and Freight Forwarding",
         "heroSubtitle": "Modern transport solutions and highest standard logistics since 1998.",
-        "getQuote": "Get a Quote"
+        "getQuote": "Get a Quote",
+        "ourServices": "Our Services",
+        "trust1Title": "Since 1998",
+        "trust1Desc": "Proven Stability",
+        "trust2Title": "600,000 EUR",
+        "trust2Desc": "Cargo Insurance",
+        "trust3Title": "ADR Cargo",
+        "trust3Desc": "Dangerous Goods Experts",
+        "servicesTitle": "Core Logistics Solutions",
+        "servicesSubtitle": "We provide a complete supply chain from pickup point to customs clearance and safe final delivery.",
+        "service1Title": "Road Freight",
+        "service1Desc": "Full (FTL) and partial (LTL) truck loads across Europe with modern EURO-6 trucks. We specialize in ADR and temperature-controlled freight.",
+        "service1Btn": "Learn More",
+        "service2Title": "Customs Services",
+        "service2Desc": "Full customs broker service (EX, IM, T1). Preparation of export/import declarations and customs codes (HS/TN VED).",
+        "service2Btn": "Learn More",
+        "service3Title": "Sea & Air Freight",
+        "service3Desc": "Multimodal transport (FCL/LCL) for intercontinental shipments and consolidated logistics for fast solutions.",
+        "service3Btn": "Learn More"
     },
     "Navigation": {
         "home": "Home",

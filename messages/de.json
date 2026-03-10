@@ -1,14 +1,33 @@
 {
     "Index": {
+        "trustDesc": "Ihr Zuverlässiger Logistikpartner",
         "title": "Internationale Logistik und Spedition",
         "heroSubtitle": "Moderne Transportlösungen und Logistik auf höchstem Niveau seit 1998.",
-        "getQuote": "Preis anfragen"
+        "getQuote": "Preis Anfragen",
+        "ourServices": "Unsere Dienstleistungen",
+        "trust1Title": "Seit 1998",
+        "trust1Desc": "Bewährte Stabilität",
+        "trust2Title": "600.000 EUR",
+        "trust2Desc": "Frachtversicherung",
+        "trust3Title": "ADR-Fracht",
+        "trust3Desc": "Gefahrgutexperten",
+        "servicesTitle": "Zentrale Logistiklösungen",
+        "servicesSubtitle": "Wir übernehmen die komplette Lieferkette vom Abholort bis zur Zollabfertigung und sicheren Endzustellung.",
+        "service1Title": "Straßenfracht",
+        "service1Desc": "Komplett- (FTL) und Teilladungen (LTL) europaweit mit modernen EURO-6-Lkw. Spezialisiert auf ADR- und temperaturgeführte Transporte.",
+        "service1Btn": "Mehr Erfahren",
+        "service2Title": "Zolldienstleistungen",
+        "service2Desc": "Kompletter Zollmaklerservice (EX, IM, T1). Erstellung von Ausfuhr-/Einfuhranmeldungen und Zollcodes (HS/TN VED).",
+        "service2Btn": "Mehr Erfahren",
+        "service3Title": "See- und Luftfracht",
+        "service3Desc": "Multimodaler Transport (FCL/LCL) für interkontinentale Sendungen und konsolidierte Logistik für schnelle Lösungen.",
+        "service3Btn": "Mehr Erfahren"
     },
     "Navigation": {
         "home": "Startseite",
         "services": "Dienstleistungen",
         "about": "Über uns",
         "careers": "Karriere",
-        "contacts": "Kontakte"
+        "contacts": "Kontakt"
     }
 }

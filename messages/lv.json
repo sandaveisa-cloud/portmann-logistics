@@ -1,8 +1,27 @@
 {
   "Index": {
+    "trustDesc": "Tavs Uzticamais Loģistikas Partneris",
     "title": "Starptautiskie loģistikas un kravu pārvadājumi",
     "heroSubtitle": "Mūsdienīgi transporta risinājumi un augstāko standartu loģistika kopš 1998. gada.",
-    "getQuote": "Uzzināt cenu"
+    "getQuote": "Uzzināt cenu",
+    "ourServices": "Mūsu Pakalpojumi",
+    "trust1Title": "Kopš 1998. Gada",
+    "trust1Desc": "Pierādīta Stabilitāte",
+    "trust2Title": "600,000 EUR",
+    "trust2Desc": "Kravu Apdrošināšana",
+    "trust3Title": "ADR Kravas",
+    "trust3Desc": "Bīstamo Kravu Eksperti",
+    "servicesTitle": "Galvenie Loģistikas Virzieni",
+    "servicesSubtitle": "Nodrošinām pilnu loģistikas ķēdi no paņemšanas punkta līdz pat muitas noformējumam un drošai piegādei adresē.",
+    "service1Title": "Sauszemes Kravas",
+    "service1Desc": "Pilno (FTL) un salikto (LTL) kravu pārvadājumi visā Eiropā ar moderniem EURO-6 vilcējiem. Specilizējamies ADR un temperatūras režīma kravās.",
+    "service1Btn": "Uzzināt Vairāk",
+    "service2Title": "Muitas Pakalpojumi",
+    "service2Desc": "Pilna muitas brokeru apkalpošana (EX, IM, T1). Eksporta/importa deklarāciju sagatavošana un muitas kodi (TN VED).",
+    "service2Btn": "Uzzināt Vairāk",
+    "service3Title": "Jūras un Avio",
+    "service3Desc": "Multimodālie pārvadājumi (FCL/LCL) starpkontinentāliem sūtījumiem un apvienotā loģistika ātriem risinājumiem.",
+    "service3Btn": "Uzzināt Vairāk"
   },
   "Navigation": {
     "home": "Sākums",
